@@ -25,6 +25,6 @@ We implement **EventPro** with a commercial event camera, the Prophesee EVK4 HD 
 We build a laboratory testbed featuring a rotating propeller mounted on a brushless motor shaft. The setup comprises a laptop and an Arduino Uno to control the motor's speed by adjusting the duty cycle and frequency of the PWM signal. The laptop transmits the PWM parameters to the Arduino Uno via a serial port, which then relays the PWM signal to the motor's Electronic Speed Controller (ESC). An event camera was positioned in front of the propeller.
 
 ## Outdoor Experiments
-We adopt a commercial delivery drone and conduct real-world experiments in a test field. This drone is manufactured by a company specializing in daily and city-wide instant delivery services. The drone features six propellers attached to brushless motors and is controlled by a PX4\cite{px4} flight controller. An event camera was positioned on a ground-based bracket to capture the drone in flight.
+We adopt a commercial delivery drone and conduct real-world experiments in a test field. This drone is manufactured by a company specializing in daily and city-wide instant delivery services. The drone features six propellers attached to brushless motors and is controlled by a PX4 flight controller. An event camera was positioned on a ground-based bracket to capture the drone in flight.
 
 
