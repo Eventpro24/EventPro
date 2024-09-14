@@ -1,6 +1,6 @@
 # Demo Video of EventPro
 
-[![Watch the video](https://img.youtube.com/vi/m2PPeahVJCQ/0.jpg)](https://youtu.be/y8-OKP5O1Dc)
+[![Watch the video](./imgs/teaser.png)](https://youtu.be/y8-OKP5O1Dc)
 
 # Event Camera Preliminary
 ![evcam](./imgs/event_camera.png)
