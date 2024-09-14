@@ -1,5 +1,5 @@
 Count Every Rotation and Every Rotation Counts: Exploring Drone Dynamics via Propeller Sensing
----
+
 # Demo Video of EventPro
 
 [![Watch the video](./imgs/teaser.png)](https://youtu.be/y8-OKP5O1Dc)
