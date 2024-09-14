@@ -12,7 +12,7 @@ We propose **EventPro**, a comprehensive system employing advanced event cameras
 
 - *Count Every Rotation*. We propose an accurate, real-time propeller speed estimation pipeline by mitigating ultra-high sensitivity of event cameras to environmental noise.
 
-- *Every Rotation Counts* Based on the estimatd propeller speed, we propose algorithms to accurately infer both the drone internal flight commands and external flight status.
+- *Every Rotation Counts*. Based on the estimatd propeller speed, we propose algorithms to accurately infer both the drone internal flight commands and external flight status.
 
 ![overview](overview.png)
 
