@@ -1,6 +1,6 @@
 # Demo Video of EventPro
 
-[![Watch the video](https://img.youtube.com/vi/m2PPeahVJCQ/0.jpg)](https://www.youtube.com/watch?v=m2PPeahVJCQ)
+[![Watch the video](https://img.youtube.com/vi/m2PPeahVJCQ/0.jpg)](https://youtu.be/y8-OKP5O1Dc)
 
 # Event Camera Preliminary
 ![evcam](./imgs/event_camera.png)
@@ -27,6 +27,6 @@ We build a laboratory testbed featuring a rotating propeller mounted on a brushl
 ## Outdoor Experiments
 We adopt a commercial delivery drone and conduct real-world experiments in a test field. This drone is manufactured by a company specializing in daily and city-wide instant delivery services. The drone features six propellers attached to brushless motors and is controlled by a [PX4](https://docs.px4.io/main/en/) flight controller. An event camera was positioned on a ground-based bracket to capture the drone in flight.
 
-## Code
+# Code
 Code will be made publicly available before publication.
 
