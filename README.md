@@ -27,4 +27,6 @@ We build a laboratory testbed featuring a rotating propeller mounted on a brushl
 ## Outdoor Experiments
 We adopt a commercial delivery drone and conduct real-world experiments in a test field. This drone is manufactured by a company specializing in daily and city-wide instant delivery services. The drone features six propellers attached to brushless motors and is controlled by a PX4 flight controller. An event camera was positioned on a ground-based bracket to capture the drone in flight.
 
+## Code
+Code will be made publicly available before publication.
 
