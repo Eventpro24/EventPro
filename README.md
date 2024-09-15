@@ -2,7 +2,7 @@ Count Every Rotation and Every Rotation Counts: Exploring Drone Dynamics via Pro
 
 # Demo Video of EventPro
 
-[![Watch the video](./imgs/teaser.png)](https://youtu.be/y8-OKP5O1Dc)
+[![Watch the video](./imgs/teaser.png)](https://youtu.be/Sx99O1TA5YA)
 
 # Event Camera Preliminary
 ![evcam](./imgs/event_camera.png)
