@@ -16,7 +16,7 @@ We propose **EventPro**, a comprehensive system employing advanced event cameras
 
 - *Every Rotation Counts*. Based on the estimatd propeller speed, we propose algorithms to accurately infer both the drone internal flight commands and external flight status.
 
-
+![overview](./imgs/overview.png) 
 
 # Implementation
 We implement **EventPro** with a commercial event camera, the [Prophesee EVK4 HD evaluation kit](https://www.prophesee.ai/event-camera-evk4/) , which is equipped with the IMX636ES event-based vision sensor for high-definition event data capture (1280 × 720 pixels) using the [Soyo SFA0820-5M lens](http://www.soyocctv.com/products_detail.asp?id=1218&cataid=183&list=1). Our implementation contains more than 20000 LOC (lines of Python code). **EventPro** operates on a laptop equipped with an Intel i7-12900K CPU, and 32GB RAM, running on the Ubuntu 20.04 operating system. The event camera is connected to the laptop via USB 3.0.
