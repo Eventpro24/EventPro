@@ -211,10 +211,6 @@
           <p>
             Event cameras are bio-inspired sensors that operate asynchronously and independently for each pixel. Instead of capturing images at a fixed time interval, event cameras record asynchronous changes in pixel brightness, resulting in a stream of events with <i>microsecond</i> resolution. When a pixel detects a change in light intensity of a predefined magnitude in the scene, it immediately outputs an event \(e_k \doteq \left(\mathbf{x}_k, t_k, p_k\right)\), encoding the triggered position \(\mathbf{x}_k\), the triggered time \(t_k\), and polarity \(p_k\) (+1 for brighter and -1 for darker) of the intensity changes.
         </p>
-          <!-- <p>
-          When a pixel detects a sufficient change in light intensity, it generates an event, denoted as \( e_k = \left(\mathbf{x}_k, t_k, p_k\right) \). 
-          This event encodes the pixel’s position \(\mathbf{x}_k\), the exact time of activation \(t_k\), and the polarity \(p_k\) (where \(+1\) represents a brightening change and \(-1\) a darkening change) of the intensity shift.
-        </p> -->
         </div>
         <img src="./static/images/event_camera.png" alt="Image 1" width="90%">
       </div>
@@ -232,17 +228,6 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">System Overview</h2>
         <div class="content has-text-justified">
-        <!-- <p>
-          The EventLoc comprises two key modules:
-        </p>
-        <p>
-          <i>(i)</i> The CCT (Consistency-instructed Collaborative Tracking) for noise filtering and roughly localization of the drone.
-          This module utilizes <b>consistent information</b> of both modalities to eliminate noise and error detections, and roughly localize the drone.
-        </p>
-        <p>
-          <i>(ii)</i> The GAJO (Graph-informed Adaptive Joint Optimization) for fine localization and trajectory optimization of the drone.
-          This module employs the <b>complementary information</b> from both modalities to unleash the potential of event camera and mmWave radar in landing drone localization.
-        </p> -->
         <p><strong>EventPro</strong> features two components:</p>
         <ul>
             <li>
