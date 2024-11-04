@@ -139,7 +139,8 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
+      <!-- <video id="teaser" autoplay muted loop playsinline height="100%"> -->
+      <video id="teaser" autoplay controls muted loop playsinline height="100%">
         <source src="./static/videos/eventpro2.2.mp4"
                 type="video/mp4">
       </video>
@@ -169,16 +170,16 @@
           As drone-based applications proliferate, paramount contact-less sensing of airborne drones from the ground becomes
           indispensable. In this work, we broaden our system design perspective from isolated sensors and algorithms to the entire drone flight control and propulsion system, demonstrating
           that concentrating on propeller rotational speed will substantially improve the accuracy and efficiency of drone sensing
-          systems. Based on the insight, we propose EventPro, a comprehensive system employing advanced event cameras focusing on propeller rotation to sense drones. EventPro features
-          two components: Count Every Rotation achieves accurate,
+          systems. Based on the insight, we propose <strong>EventPro</strong>, a comprehensive system employing advanced event cameras focusing on propeller rotation to sense drones. 
+          EventPro features
+          two components: <em>Count Every Rotation</em> achieves accurate,
           real-time propeller speed estimation by mitigating ultra-high
-          sensitivity of event cameras to environmental noise. Every
-          Rotation Counts leverages these speeds to infer both internal
-          and external drone dynamics. Extensive evaluations in real-
-          world drone delivery scenarios show that EventPro achieves
+          sensitivity of event cameras to environmental noise. <em>Every Rotation Counts</em> leverages these speeds to infer both internal
+          and external drone dynamics. Extensive evaluations in real-world drone delivery scenarios show that EventPro achieves
           a sensing latency of 3ms and a rotational speed estimation error of merely 0.23%. Additionally, EventPro infers drone flight
           commands with 96.5% precision and improves drone tracking accuracy by over 22% when combined with other sensing
-          modalities. Artifacts will be made publicly available before publication. 
+          modalities. 
+          <!-- Artifacts will be made publicly available before publication.  -->
         </div>
       </div>
     </div>
@@ -215,7 +216,7 @@
           This event encodes the pixel’s position \(\mathbf{x}_k\), the exact time of activation \(t_k\), and the polarity \(p_k\) (where \(+1\) represents a brightening change and \(-1\) a darkening change) of the intensity shift.
         </p> -->
         </div>
-        <img src="./static/images/event_camera.png" alt="Image 1" width="80%">
+        <img src="./static/images/event_camera.png" alt="Image 1" width="90%">
       </div>
     </div>
 
@@ -331,7 +332,7 @@
   </div>
 </section>
 
-<hr>
+<!-- <hr> -->
 
 <!-- <section class="airport evaluation">
   <div class="container is-max-desktop">
